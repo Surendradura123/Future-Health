@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="50dp"
+    tools:context=".SensorFragment">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fit_output"
+        android:textSize="32dp"
+        android:textAlignment="center"/>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/logger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ne_text"
+            android:textColor="@color/colorPrimary"/>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>
+
+

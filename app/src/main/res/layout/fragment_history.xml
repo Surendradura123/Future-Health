@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HistoryFragment">
+
+    <Button
+        android:id="@+id/btn_view_week"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View this weeks steps" />
+
+    <Button
+        android:id="@+id/btn_view_today"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View today's steps" />
+
+    <Button
+        android:id="@+id/btn_add_steps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add step data for today" />
+
+    <Button
+        android:id="@+id/btn_update_steps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update step data for yesterday" />
+
+    <Button
+        android:id="@+id/btn_delete_steps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete step data for yesterday" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/loggerh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Output:\n"
+            android:textColor="@color/colorPrimary"/>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>
